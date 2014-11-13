@@ -9,4 +9,9 @@ This application is just an example of a way to implement an hexagonal architect
 and also a service binder which will be our dependency injection manager, for the services.
 
 
+In order to package the app as a jar you just need to run an mvn package from the parent module and an exacutable will be
+created in the target of the glue module that can be executed this way:
+java -jar glue-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+
 
