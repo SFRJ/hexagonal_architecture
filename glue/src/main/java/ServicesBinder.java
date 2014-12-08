@@ -34,10 +34,5 @@ public class ServicesBinder extends AbstractBinder {
 
         bindAsContract(JsonPostService.class)
                 .to(PostService.class);
-
-
-//TODO
-//        -Use Jersey client and Jackson to post(See Poseidon how
-//        posts to Rockefeller)
     }
 }

@@ -1,9 +1,7 @@
 
 import org.glassfish.jersey.jackson.JacksonFeature;
 import org.glassfish.jersey.server.ResourceConfig;
-
 import java.net.URI;
-
 import static javax.ws.rs.core.UriBuilder.fromUri;
 import static org.glassfish.jersey.jetty.JettyHttpContainerFactory.createServer;
 
